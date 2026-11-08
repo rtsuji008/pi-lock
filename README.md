@@ -14,7 +14,7 @@ npm install --package-lock-only --ignore-scripts --save-exact \
 sha256sum package.json package-lock.json
 ```
 
-- <VERSION> は `npm view @earendil-works/pi-coding-agent version` で確認できます。公開直後のバージョンは避けるのが無難です。
+- `<VERSION>` は `npm view @earendil-works/pi-coding-agent version` で確認できます。公開直後のバージョンは避けるのが無難です。
 - パッケージ名は `@earendil-works/pi-coding-agent` です。
 - `--ignore-scripts` を付けているのは、通常の npm インストールでは、ライフサイクルスクリプトが不要とされているためです。
 
