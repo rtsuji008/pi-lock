@@ -1,7 +1,10 @@
-# pi-lock
+# lockfiles
+
+## pi-lock
+
 pi-coding-sgent インストールスクリプトでの hash 確認用 lock ファイル。
 
-## 推奨方法
+### 推奨方法
 
 信頼できる環境でロックファイルを作り、VM 内で `npm ci`
 
